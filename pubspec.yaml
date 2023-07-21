@@ -1,0 +1,56 @@
+name: digital_wallet
+description: A multi currency digital wallet.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter_swiper: ^1.1.6
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.5
+  introduction_screen: ^2.1.0
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  sliding_up_panel: ^1.0.2
+  google_nav_bar: ^5.0.3
+  country_code_picker: ^2.0.1
+  url_launcher: ^6.0.3
+  fluttertoast: ^8.0.3
+  pin_code_fields: ^7.0.0
+  image_picker: ^0.7.4
+  http: ^0.13.1
+  custom_progress_dialog: ^1.0.5
+  pull_to_refresh: ^1.6.5
+  contacts_service: ^0.6.1
+  country_currency_pickers: ^2.0.0
+  intl: ^0.17.0
+  syncfusion_flutter_datepicker: ^19.1.57-beta
+  sizer: ^2.0.12
+  permission_handler: ^7.0.0
+  country_icons: ^2.0.2
+
+dev_dependencies:
+  flutter_native_splash: ^1.1.7+1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Kodchasan
+      fonts:
+        - asset: assets/Fonts/Kodchasan/Kodchasan-Regular.ttf
+
+  assets:
+    - assets/Images/
+    - assets/Icons/
+
+
+flutter_native_splash:
+  image: assets/Images/img.png
+  color: "007AFF"
